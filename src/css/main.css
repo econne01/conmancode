@@ -131,11 +131,29 @@ ul.nav li a {
     color: white;
 }
 
+img.about {
+    width: 50%;
+    height: auto;
+    float: left;
+}
 
+.description {
+    float: left;
+    width: 45%;
+}
 
+.project_icon {
+}
 
+.project_icon img {
+    width: 100px;
+    heigh: 100px;
+}
 
-
+.games_container {
+    clear: both;
+    text-align: center;
+}
 
 
 
