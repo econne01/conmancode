@@ -87,13 +87,49 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    background-color: #B0C9DF; /* Blue Gray */
+}
 
+#header {
+    background-color: #3F506F; /* Slate Blue */
+    width: 90%;
+    margin: 1em 5% 0 5%;
+}
 
+/* Navigation bar styles */
+nav {
+    text-align: center;
+}
 
+nav>a {
+    float: none;
+}
 
+#logo {
+    background-image: url('../img/eric_connelly.jpg');
+    float: left;
+    display: inline-block;
+    width: 75px;
+}
 
+ul.nav {
+    float: none;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    margin-left: -75px;
+}
 
+ul.nav li {
+    display: inline-block;
+    float: left;
+    padding-left: 5px;
+}
 
+ul.nav li a {
+    color: white;
+}
 
 
 

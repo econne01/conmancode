@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="en-US">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -11,6 +11,7 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/vendor/bootstrap-responsive.min.css" media="screen">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -20,10 +21,22 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+        <header id="header">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                    <a id="logo" href="http://www.conmancode.com">Conman Code</a>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">games</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         <p>Hello world! This is HTML5 Boilerplate. It is erics version.</p>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
