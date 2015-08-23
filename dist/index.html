@@ -11,7 +11,7 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/vendor/bootstrap-responsive.min.css" media="screen">
+        <link rel="stylesheet" href="css/vendor/bootstrap.min.css" media="screen">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -27,7 +27,7 @@
                     <a id="logo" href="http://www.conmancode.com">Conman Code</a>
                     <ul class="nav navbar-nav">
                         <li><a href="#">about</a></li>
-                        <li><a href="#">games</a></li>
+                        <li><a href="#">projects</a></li>
                     </ul>
                     <ul class="social">
                         <li class="linkedin">
@@ -50,27 +50,46 @@
                 </div>
             </nav>
         </header>
-        <body>
-            <div class="container">
-                <img class="about" src="img/eric_about.jpg"/>
-                <div class="description">
-                    My name is Eric Connelly. I am a python and javascript developer, living
-                    and working in New York.  I love solving problems and learning
-                    about how brains think.
-                    I like coffee, beer, baseball and cartoons.
-                </div>
-            </div>
-            <div class="container games_container">
-                <div class="project_icon">
-                    <a href="games/game_of_snow">
-                        <div class="project_title">
-                            Game of Snow
+        <div id="content" class="content">
+            <section id="about">
+                <h1 class="section-title">
+                    About
+                </h1>
+                <div class="row">
+                    <div class="col-sm-6 center-content">
+                        <img class="about" src="img/eric_about.jpg"/>
+                    </div>
+                    <div class="col-sm-6 center-content">
+                        <div class="bubble description center-block">
+                            &nbsp;&nbsp;My name is Eric Connelly. I am a python and javascript developer, living
+                            and working in New York.  I love solving problems and learning
+                            about how brains think.
+                            I like coffee, beer, baseball and cartoons.
                         </div>
-                        <img src="img/game-thumbnails/game_of_snow.png"/>
-                    </a>
+                    </div>
                 </div>
-            </div>
-        </body>
+            </section>
+            <section id="projects" class="clearfix">
+                <h1 class="section-title">
+                    Projects
+                </h1>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="bubble project_icon center-block">
+                            <a href="games/game_of_snow">
+                                <img src="img/game-thumbnails/game_of_snow.jpg"/>
+                                <div class="project_title">
+                                    Game of Snow
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            &copy; 2015 Eric Connelly
+        </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>

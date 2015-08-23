@@ -95,74 +95,96 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-    background-color: #B0C9DF; /* Blue Gray */
+  /*Blue Gray */
+  /* background-color: #B0C9DF; */
+}
+
+section {
+  margin-bottom: 1em;
 }
 
 #header {
-    background-color: #3F506F; /* Slate Blue */
-    width: 90%;
-    margin: 1em 5% 0 5%;
+  background-color: #3F506F; /* Slate Blue */
+  width: 90%;
+  margin: 1em 5% 0 5%;
+}
+
+.center-content {
+  text-align: center;
 }
 
 /* Navigation bar styles */
 nav {
-    text-align: center;
+  text-align: center;
 }
 
 nav>a {
-    float: none;
+  float: none;
 }
 
 #logo {
-    background-image: url('../img/eric_connelly.jpg');
-    float: left;
-    display: inline-block;
-    width: 75px;
+  background-image: url('../img/eric_connelly.jpg');
+  float: left;
+  display: inline-block;
+  width: 75px;
 }
 
 ul.nav {
-    float: none;
-    padding: 0;
-    text-align: center;
-    display: inline-block;
-    margin-left: -75px;
+  float: none;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+  margin-left: -75px;
 }
 
 ul.nav li {
-    display: inline-block;
-    float: left;
-    padding-left: 5px;
+  display: inline-block;
+  float: left;
+  padding-left: 5px;
 }
 
 ul.nav li a {
-    color: white;
+  color: white;
+}
+
+#content {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 img.about {
-    width: 50%;
-    height: auto;
-    float: left;
+  min-width: 15em; 
+  max-width: 20em;
+  width: 100%;
+  height: auto;
+}
+
+.bubble {
+  border-style: solid;
+  border-width: 0.25em;
+  border-radius: 0.5em;
+  padding: 1em;
 }
 
 .description {
-    float: left;
-    width: 45%;
+  background-color: antiquewhite;
+  text-align: justify;
+  min-width: 15em; 
+  max-width: 20em;
+  width: 100%;
+  height: auto;
 }
 
 .project_icon {
-}
-
-.project_icon img {
-    width: 100px;
-    heigh: 100px;
-}
-
-.games_container {
-    clear: both;
+    width: 12em;
+    height: 13em;
     text-align: center;
 }
 
-
+.project_icon img {
+  width: 100%;
+  height: auto;
+}
 
 
 /* ==========================================================================
