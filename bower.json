@@ -1,0 +1,9 @@
+{
+  "name": "conmancode",
+  "description": "Code for personal website of eric connelly",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "fontawesome": "4.4.x"
+  }
+}

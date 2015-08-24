@@ -96,23 +96,21 @@ section {
   margin-bottom: 1em;
 }
 
-#header {
+.navbar {
   background-color: #3F506F; /* Slate Blue */
-  width: 90%;
-  margin: 1em 5% 0 5%;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar-nav>li {
+  float: none;
+  display: inline-block;
 }
 
 .center-content {
   text-align: center;
-}
-
-/* Navigation bar styles */
-nav {
-  text-align: center;
-}
-
-nav>a {
-  float: none;
 }
 
 #logo {
@@ -120,24 +118,6 @@ nav>a {
   float: left;
   display: inline-block;
   width: 75px;
-}
-
-ul.nav {
-  float: none;
-  padding: 0;
-  text-align: center;
-  display: inline-block;
-  margin-left: -75px;
-}
-
-ul.nav li {
-  display: inline-block;
-  float: left;
-  padding-left: 5px;
-}
-
-ul.nav li a {
-  color: white;
 }
 
 #content {

@@ -68,6 +68,7 @@ gulp.task('copy', [
     'copy:.htaccess',
     'copy:index.html',
     'copy:bootstrap',
+    'copy:fontawesome',
     'copy:jquery',
     'copy:license',
     'copy:main.css',
@@ -91,6 +92,13 @@ gulp.task('copy:bootstrap', function () {
     gulp.src(['node_modules/twitter-bootstrap-3.0.0/dist/js/bootstrap.min.js'])
                .pipe(gulp.dest(dirs.dist + '/js/vendor'));
     return gulp.src(['node_modules/twitter-bootstrap-3.0.0/dist/css/bootstrap.min.css'])
+               .pipe(gulp.dest(dirs.dist + '/css/vendor'));
+});
+
+gulp.task('copy:fontawesome', function () {
+    gulp.src(['bower_components/fontawesome/fonts/fontawesome-webfont.*'])
+        .pipe(gulp.dest(dirs.dist + '/css/fonts'));
+    return gulp.src(['bower_components/fontawesome/css/font-awesome.min.css'])
                .pipe(gulp.dest(dirs.dist + '/css/vendor'));
 });
 

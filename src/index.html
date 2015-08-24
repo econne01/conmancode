@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/vendor/bootstrap.min.css" media="screen">
+        <link rel="stylesheet" href="css/vendor/font-awesome.min.css" media="screen">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -22,32 +23,46 @@
 
         <!-- Add your site or application content here -->
         <header id="header">
-            <nav class="navbar navbar-default" role="navigation">
+
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <a id="logo" href="http://www.conmancode.com">Conman Code</a>
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">projects</a></li>
-                    </ul>
-                    <ul class="social">
-                        <li class="linkedin">
-                            <a href="https://www.linkedin.com/in/erictconnelly" title="Connect with me on LinkedIn"
-                                target="_blank">linkedin</a>
-                        </li>
-                        <li class="instagram">
-                            <a href="https://instagram.com/econn27" title="Follow me on Instagram"
-                                target="_blank">instagram</a>
-                        </li>
-                        <li class="twitter">
-                            <a href="https://twitter.com/eric_con" title="Follow me on Twitter"
-                                target="_blank">twitter</a>
-                        </li>
-                        <li class="github">
-                            <a href="https://github.com/econne01" title="Follow me on GitHub"
-                                target="_blank">github</a>
-                        </li>
-                    </ul>
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-options" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a id="logo" class="navbar-brand" href="http://www.conmancode.com">Conman Code</a>
                 </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-collapse-options">
+                  <ul class="nav navbar-nav">
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">projects</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right social">
+                    <li class="linkedin">
+                        <a href="https://www.linkedin.com/in/erictconnelly" title="Connect with me on LinkedIn"
+                            target="_blank" class="fa fa-linkedin" alt="linkedin"></a>
+                    </li>
+                    <li class="instagram">
+                        <a href="https://instagram.com/econn27" title="Follow me on Instagram"
+                            target="_blank" class="fa fa-instagram" alt="instagram"></a>
+                    </li>
+                    <li class="twitter">
+                        <a href="https://twitter.com/eric_con" title="Follow me on Twitter"
+                            target="_blank" class="fa fa-twitter" alt="twitter"></a>
+                    </li>
+                    <li class="github">
+                        <a href="https://github.com/econne01" title="Follow me on GitHub"
+                            target="_blank" class="fa fa-github" alt="github"></a>
+                    </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
             </nav>
         </header>
         <div id="content" class="content">
