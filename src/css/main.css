@@ -87,9 +87,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
+h1 {
   /*Blue Gray */
-  /* background-color: #B0C9DF; */
+  color: #3F506F; /* Slate Blue */
 }
 
 section {
@@ -107,6 +107,15 @@ section {
 .navbar-nav>li {
   float: none;
   display: inline-block;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: lightgray;
+  font-size: 1.5em;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: darkgray;
 }
 
 .center-content {
@@ -127,7 +136,7 @@ section {
 
 img.about {
   min-width: 15em; 
-  max-width: 20em;
+  max-width: 25em;
   width: 100%;
   height: auto;
 }
@@ -159,6 +168,12 @@ img.about {
   height: auto;
 }
 
+footer {
+  margin-top: 2em;
+  text-align: center;
+  background-color: #3F506F; /* Slate Blue */
+  color: lightgray;
+}
 
 /* ==========================================================================
    Helper classes
