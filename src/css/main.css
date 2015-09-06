@@ -162,6 +162,9 @@ img.about {
     width: 12em;
     height: 13em;
     text-align: center;
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 
 .project_icon img {
