@@ -16,6 +16,12 @@ way that you want.
 * Twitter: [@h5bp](https://twitter.com/h5bp)
 
 
+## Installation and Setup start
+* git clone project
+* cd ~/projects/conmancode
+* npm install
+* `./node_modules/gulp/bin/gulp.js build`
+
 ## Quick start
 
 Choose one of the following options:
