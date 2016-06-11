@@ -146,13 +146,14 @@ img.about {
   border-width: 0.25em;
   border-radius: 0.5em;
   padding: 1em;
+  margin-top: 1em;
 }
 
 .description {
   background-color: antiquewhite;
   text-align: justify;
   min-width: 15em; 
-  max-width: 20em;
+  max-width: 80%;
   width: 100%;
   height: auto;
 }
@@ -161,6 +162,9 @@ img.about {
     width: 12em;
     height: 13em;
     text-align: center;
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 
 .project_icon img {
