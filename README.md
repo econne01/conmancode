@@ -7,7 +7,9 @@
 * `./node_modules/gulp/bin/gulp.js build`
 
 ## Deploying to AWS (S3 static site)
-??
+
+    export AWS_PROFILE=personal
+    aws s3 sync dist/ s3://conmancode.com/
 
 ## Source code credit
 Project is forked from [HTML5 Boilerplate](https://html5boilerplate.com)
